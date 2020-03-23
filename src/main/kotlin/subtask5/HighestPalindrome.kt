@@ -23,7 +23,7 @@ class HighestPalindrome {
         {
             if(digitString[i]!=digitString[digitString.length-1-i]) {
                 if (numberOfChangesAvailable > 0 && (digitString[i] != '9'
-                            && digitString[digitString.length - 1 - i] != '9')) {
+                        && digitString[digitString.length - 1 - i] != '9')) {
                     result.setCharAt(i, '9')
                     result.setCharAt(digitString.length - i - 1, '9')
                     numberOfChangesAvailable--
